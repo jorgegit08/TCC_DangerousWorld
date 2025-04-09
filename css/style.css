@@ -1,0 +1,102 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.textoCarousel {
+  color: #000000;
+  background-color:#f5f2f2;
+  opacity: 0.6;
+}
+
+.rounded-circle {
+  height: 140px;
+  width: 140px;
+}
+
+.highImg {
+  height: 500px;
+  width: 500px;
+}
+
+footer {
+  background-color: #666;
+  color: #FFF;
+  line-height: 75px;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-width: 100% !important;
+}
+
+footer p a {
+  color:#FFF;
+}
+
+footer p a:hover {
+  color:#FFF;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.divMoreDetail {
+  text-align: center !important;
+  padding-bottom: 30px;
+}
+
+.grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 10px;
+}
+
+@media screen and (min-width: 772px) {
+  .grid {
+      grid-template-columns: 45% 45%;
+      gap: 10px;
+  }
+
+  .grid a img {
+      border-radius: 50%;
+      overflow: hidden;
+  }
+  
+  .grid a:last-child {
+      grid-column: 1 / span 2;
+  }
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid {
+      border-radius: 0;
+      grid-template-columns: 30% 30% 20%;
+      gap: 20px;
+  }
+
+  .grid a img {
+      border-radius: 0;
+  }
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.example-image {
+  height: 250px;
+  width: 250px;
+}
+
+.padb100 {
+  padding-bottom: 100px;
+}

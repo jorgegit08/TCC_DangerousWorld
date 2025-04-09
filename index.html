@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jorge Silva">
+    <title>Pretty and Perilous World</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+  <header>
+    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i> Pretty and Perilous World</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#sectionHighlights"><i class="fa fa-bolt"></i> Highlights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#interestingPlaces"><i class="fa fa-compass"></i> Interesting Places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="imgCarousel" src="img/moher.jpg" alt="Cliffs of Moher">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1><span class="textoCarousel">Cliffs of Moher, Ireland</span></h1>
+              <p class="textoCarousel">The Cliffs of Moher are one of Ireland’s most stunning natural attractions. They offer breathtaking views of the Atlantic Ocean and are a must-see for many visitors. The cliffs rise dramatically from the sea, and walking along them is both beautiful and humbling.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/danakil.png" alt="The Danakil Desert">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><span class="textoCarousel">The Danakil Desert, Ethiopia</span></h1>
+              <p class="textoCarousel">The Danakil Desert sits on the border of Ethiopia and Eritrea. It is one of the hottest regions in Africa, with temperatures often soaring above 50°C (122°F). </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/deathvalley.jpg" alt="Death Valley">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1><span class="textoCarousel">Death Valley, California</span></h1>
+              <p class="textoCarousel">Death Valley is a vast desert valley known as one of the hottest places on Earth. It holds record-high temperatures that draw in curious travelers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing padb100" id="sectionHighlights">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/robert.jpg" class="bd-placeholder-img rounded-circle" alt="Robert Young Pelton">
+
+          <h2>Interview: Adventurer Robert Young Pelton</h2>
+          <p>Robert Young Pelton has traveled to war zones, been kidnapped by rebels, and tracked pirates in Somalia. Why does he keep going back?</p>
+          <p><a class="btn btn-secondary" href="interview.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/dangerousAnimals.png" class="bd-placeholder-img rounded-circle" alt="dangerousAnimals">
+
+          <h2>Beautiful and Dangerous Animals</h2>
+          <p>They look sweet and innocent, but some of the cutest creatures are also deadly.</p>
+          <p><a class="btn btn-secondary" href="dangerousAnimals.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/Hanakapiai.png" class="bd-placeholder-img rounded-circle" alt="Hanakapiai">
+
+          <h2>Beautiful and Dangerous Beaches</h2>
+          <p>Beaches In The World That Prove “Beauty Comes With A Price”.</p>
+          <p><a class="btn btn-secondary" href="dangerousBeaches.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="interestingPlaces">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Hang Son Doong - The World’s Largest Cave.</h2>
+          <p class="lead">Son Doong is considered to be the largest cave in the world, based on volume and also the biggest cave in Vietnam, found by Ho Khanh – a Phong Nha jungle man in 1990. In 2009, Hang Son Doong was officially surveyed and measured by the The British -Vietnam Cave Expedition Team led by Howard Limbert. The Expedition team then announced it as the world's largest natural cave with a volume of 38.5 million m3. The measurements were then accepted by a number of world's senior karst geologists including Dr. Tony Waltham. This team along with National Geographic magazine had announced Son Doong Cave as the largest natural limestone cave on the planet in the same year. In 2013, the Guinness World Records Organisation recorded it as the world's largest natural cave.
+            Many people mistook Son Doong Cave - the largest cave in the world with Mammoth Cave - the world's longest-known cave system, located in Mammoth Cave National Park.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/sonDoongCave.jpg" class="highImg" alt="Son Doong Cave">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <img src="img/deepAbyss.jpg" class="highImg" alt="Deep Ocean">
+
+        </div>
+        <div class="col-md-5">
+          <h2 class="featurette-heading">Deep Ocean - The Abyss</h2>
+          <p class="lead">Organisms that live at this depth have had to evolve to overcome challenges provided by the abyssal zone. Fish and invertebrates had to evolve to withstand the sheer cold and intense pressure found at this level. Not only did they have to find ways to hunt and survive in constant darkness, but they also had to thrive in an ecosystem that has less oxygen and biomass, energy sources and prey, than the upper zones. To survive in these conditions, many fish and other organisms developed a much slower metabolism, and require much less oxygen than those in upper zones. Many animals also move very slowly to conserve energy. Their reproduction rates are also very slow, to decrease competition and conserve energy. Animals here typically have flexible stomachs and mouths, so that when scarce prey are found they can consume as many as possible.</p>
+        </div>
+        
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The many dangers this Amazon Rainforest Day.</h2>
+          <p class="lead">Amazon Day (5 September) was established in Brazil in 1850 to mark the creation of the Province of Amazonas; later to give rise to the present-day State of Amazonas.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/amazonForest.jpg" class="highImg" alt="The Danakil Desert">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#"><i class="fa fa-arrow-up"></i> Back to top <i class="fa fa-arrow-up"></i></a></p>
+      <p>&copy; 2025 Jorge Silva, Inc. &middot;</p>
+    </footer>
+  </main>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>
